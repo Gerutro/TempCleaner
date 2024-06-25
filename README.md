@@ -17,7 +17,7 @@ def change_permissions(path):
             os.chmod(path, new_permissions)
             _log.log(logging.INFO, f"{cut_path(path)}: 1000")
         else:
-            _log.log(logging.INFO, f"Permissions for {cut_path(path)} are already set correctly.")
+            _log.log(logging.INFO, f"{cut_path(path)}: 1500")
     except Exception as e:
         _log.log(logging.ERROR, f"{cut_path(path)}: {e}")
         print(f"Error when changing permissions for {cut_path(path)}: {e}")
