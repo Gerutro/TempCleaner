@@ -43,8 +43,8 @@ If you want to analyze .log file yourself, codes here:
 ## GitHub releases
 You can see the prefixes in the version name.   
 All prefixes list:  
-- `-rx0` - release version;  
-- `-prx0` - pre-release version;  
-- `-bx0` - beta version;  
-- `-ax0` - alpha version;  
-- `-fx0` - only for first-first testers(usually the lead developer).  
+- `-RX0` - release version;  
+- `-PRX0` - pre-release version;  
+- `-BX0` - beta version;  
+- `-AX0` - alpha version;  
+- `-FX0` - only for first-first testers(usually the lead developer).  
